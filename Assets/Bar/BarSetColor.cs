@@ -10,6 +10,7 @@ public class BarSetColor : MonoBehaviour
 	public PercentCondition condition;
 	public Image fill;
 	public Color conditionMetColor;
+	public Color conditionNotMetColor;
 
 	private void Awake()
 	{
@@ -19,7 +20,17 @@ public class BarSetColor : MonoBehaviour
 	{
 		if (condition.HasMetCondition(barComponent.percentValue))
 		{
-			fill.color = conditionMetColor;
+			if(fill.color != conditionMetColor)
+			{
+				fill.color = conditionMetColor;
+			}
+		}
+		else
+		{
+			if (fill.color != conditionNotMetColor)
+			{
+				fill.color = conditionNotMetColor;
+			}
 		}
 	}
 }

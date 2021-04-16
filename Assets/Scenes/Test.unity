@@ -327,6 +327,22 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3466317019036899064, guid: 1ed2b4cbe6051ce4e83fab4cb5cdf7d1, type: 3}
   m_PrefabInstance: {fileID: 250386463}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &674940156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674940154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f1cee123a8847741bf823775119c188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetCanvas: {fileID: 1648591318}
+  targetType: 1
+  objectToFollow: {fileID: 0}
+  Offset: {x: 0, y: 0}
 --- !u!114 &674940157 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3466317019036899066, guid: 1ed2b4cbe6051ce4e83fab4cb5cdf7d1, type: 3}
@@ -353,6 +369,7 @@ MonoBehaviour:
   condition: {fileID: 11400000, guid: 602c3a3c1c234454fb1f3d0b7c0e8d9d, type: 2}
   fill: {fileID: 250386464}
   conditionMetColor: {r: 0.75540227, g: 0, b: 0.7921569, a: 1}
+  conditionNotMetColor: {r: 0.07843135, g: 0.98039216, b: 0.57838184, a: 1}
 --- !u!1 &1547260800
 GameObject:
   m_ObjectHideFlags: 0
