@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: HealthLow
   m_EditorClassIdentifier: 
   condition: 2
-  value: 16.3
+  value: 50.3

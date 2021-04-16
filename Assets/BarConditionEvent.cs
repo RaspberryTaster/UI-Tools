@@ -10,7 +10,7 @@ public class BarConditionEvent : MonoBehaviour
 	{
 		if (condition.HasMetCondition(barComponent.percentValue))
 		{
-			Debug.Log("IT ME THE CONDITION");
+			Debug.Log("IT MET THE CONDITION");
 		}
 	}
 }
