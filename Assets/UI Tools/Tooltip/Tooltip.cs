@@ -44,16 +44,12 @@ public class Tooltip : MonoBehaviour
 		{
 			AdjustSize();
 		}
-
-		//SetPosition();
 	}
 
 	public void SetPosition()
 	{
 		newPosition = Input.mousePosition;
-		pivot.x = newPosition.x / Screen.width;
-		pivot.y = newPosition.y / Screen.height;
-		rectTransform.pivot = pivot;
+		newPosition = RaspberryUI.AdjustForScreenBoundrys(newPosition, rectTransform, canvas);
 		transform.position = newPosition;
 	}
 
