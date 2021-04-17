@@ -11,7 +11,8 @@ public class UIFollow : MonoBehaviour
     }
     public TargetType targetType;
     public Transform objectToFollow;
-    // Start is called before the first frame update
+    public Canvas targetCanvas;
+
     void Awake()
     {
         rect = GetComponent<RectTransform>();
@@ -19,28 +20,57 @@ public class UIFollow : MonoBehaviour
 
 	private void Update()
 	{
-        Reposition();
+        FollowCursor();
     }
 
-    Vector2 newPosition;
-    Vector2 pivot;
-	private void Reposition()
-    {
-        Vector2 ViewportPosition = Vector2.zero;
+	public bool StayWithinScreen;
+	public float padding;
+	private void FollowCursor()
+	{
+		Vector3 newPos = Vector3.zero;
 
-        if (targetType == TargetType.TRANSFORM)
+		if (targetType == TargetType.TRANSFORM)
 		{
-            ViewportPosition = Camera.main.WorldToViewportPoint(objectToFollow.position);
-        }
-        else if( targetType == TargetType.POINTER)
+			newPos = Camera.main.WorldToViewportPoint(objectToFollow.position);
+		}
+		else if (targetType == TargetType.POINTER)
 		{
-            ViewportPosition = Input.mousePosition;
-        }
+			newPos = Input.mousePosition;
+		}
 
-        newPosition = ViewportPosition;
-        pivot.x = newPosition.x / Screen.width;
-        pivot.y = newPosition.y / Screen.height;
-        rect.pivot = pivot;
-        transform.position = newPosition;
-    }
+		newPos.z = 0f;
+
+		if(StayWithinScreen)
+		{
+			newPos = AdjustWithinScreen(newPos);
+		}
+
+		rect.transform.position = newPos;
+	}
+
+	private Vector3 AdjustWithinScreen(Vector3 newPos)
+	{
+		float rightEdgeToScreenEdgeDistance = Screen.width - (newPos.x + rect.rect.width * targetCanvas.scaleFactor / 2) - padding;
+		if (rightEdgeToScreenEdgeDistance < 0)
+		{
+			newPos.x += rightEdgeToScreenEdgeDistance;
+		}
+		float leftEdgeToScreenEdgeDistance = 0 - (newPos.x - rect.rect.width * targetCanvas.scaleFactor / 2) + padding;
+		if (leftEdgeToScreenEdgeDistance > 0)
+		{
+			newPos.x += leftEdgeToScreenEdgeDistance;
+		}
+		float topEdgeToScreenEdgeDistance = Screen.height - (newPos.y + rect.rect.height * targetCanvas.scaleFactor / 2) - padding;
+		if (topEdgeToScreenEdgeDistance < 0)
+		{
+			newPos.y += topEdgeToScreenEdgeDistance;
+		}
+		float bottomEdgeToScreenEdgeDistance = 0 - (newPos.y - rect.rect.height * targetCanvas.scaleFactor / 2) + padding;
+		if (bottomEdgeToScreenEdgeDistance > 0)
+		{
+			newPos.y += bottomEdgeToScreenEdgeDistance;
+		}
+
+		return newPos;
+	}
 }

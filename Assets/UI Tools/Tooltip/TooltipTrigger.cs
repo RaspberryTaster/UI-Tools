@@ -21,7 +21,7 @@ namespace Raspberry.TooltipUI
 		public void OnPointerExit(PointerEventData eventData)
 		{
 			Timing.KillCoroutines();
-			tooltipSystem.Hide();
+			tooltipSystem?.Hide();
 		}
 
 		public void OnMouseEnter()
@@ -31,13 +31,13 @@ namespace Raspberry.TooltipUI
 		public void OnMouseExit()
 		{
 			Timing.KillCoroutines();
-			tooltipSystem.Hide();
+			tooltipSystem?.Hide();
 		}
 
 		IEnumerator<float> Show()
 		{
 			yield return Timing.WaitForSeconds(delayTime);
-			tooltipSystem.Show(content, header);
+			tooltipSystem?.Show(content, header);
 		}
 
 	}

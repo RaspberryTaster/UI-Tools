@@ -7,7 +7,7 @@ public class FadeTween : MonoBehaviour
 {
 	public CanvasGroup canvasGroup;
 	public float fadeInTime = 2f;
-	public float fadeOutTIme = 2f;
+	public float fadeOutTime = 2f;
 	public UnityEvent onFadeIn;
 	public UnityEvent onFadeOut;
 	public void FadeIn()
@@ -18,6 +18,6 @@ public class FadeTween : MonoBehaviour
 
 	public void FadeOut()
 	{
-		LeanTween.alphaCanvas(canvasGroup, 0, fadeOutTIme).setOnComplete(onFadeOut.Invoke);
+		LeanTween.alphaCanvas(canvasGroup, 0, fadeOutTime).setOnComplete(onFadeOut.Invoke);
 	}
 }
