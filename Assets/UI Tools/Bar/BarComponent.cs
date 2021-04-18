@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class BarComponent : MonoBehaviour
 {
-    private Slider slider;
+    [SerializeField] private Slider slider;
     public float percentValue
 	{ 
         get

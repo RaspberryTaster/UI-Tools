@@ -87,7 +87,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.356
+  m_Value: 0.952
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -115,6 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e461fb5d616f44b971e2c931aa8e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slider: {fileID: 3466317019036899065}
 --- !u!114 &674940158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,7 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   condition: {fileID: 11400000, guid: 602c3a3c1c234454fb1f3d0b7c0e8d9d, type: 2}
   fill: {fileID: 3466317019293353062}
-  conditionMetColor: {r: 0.75540227, g: 0, b: 0.7921569, a: 1}
+  conditionMetColor: {r: 0.89682555, g: 0.10044494, b: 0.9339623, a: 1}
   conditionNotMetColor: {r: 0.07843135, g: 0.98039216, b: 0.57838184, a: 1}
 --- !u!1 &3466317019293353056
 GameObject:
@@ -189,7 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.17238212, a: 1}
+  m_Color: {r: 0.07843135, g: 0.98039216, b: 0.57838184, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

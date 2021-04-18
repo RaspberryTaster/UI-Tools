@@ -16,6 +16,15 @@ public class BarSetColor : MonoBehaviour
 	{
 		barComponent = GetComponent<BarComponent>();
 	}
+
+	private void OnValidate()
+	{
+		if(barComponent == null)
+		{
+			barComponent = GetComponent<BarComponent>();
+		}
+		Execute();
+	}
 	public void Execute()
 	{
 		if (condition.HasMetCondition(barComponent.percentValue))
