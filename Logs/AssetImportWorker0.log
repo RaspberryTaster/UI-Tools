@@ -1,0 +1,292 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.0b5 (37f46e59aab7) revision 3667054'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 18363.959; Version 1909; 64bit' Language: 'en' Physical Memory: 8032 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.0b5\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Arhin/Documents/GitHub/UI Tools
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50478
+Successfully changed project path to: C:/Users/Arhin/Documents/GitHub/UI Tools
+C:/Users/Arhin/Documents/GitHub/UI Tools
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 215.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.0b5 (37f46e59aab7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0b5/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Arhin/Documents/GitHub/UI Tools/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   27.21.14.5122
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b5/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b5/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b5/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0b5/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0b5/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006901 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 236.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.229 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.472 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2741 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.2 MB.
+System memory in use after: 234.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3191.
+Total: 4.699800 ms (FindLiveObjects: 0.399500 ms CreateObjectMapping: 0.286600 ms MarkObjects: 3.853900 ms  DeleteObjects: 0.157500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/UI Tools/Scroll/Limb Scroll View.prefab
+  artifactKey: Guid(37a1e2aabe75dda4aa7784cddacda18d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI Tools/Scroll/Limb Scroll View.prefab using Guid(37a1e2aabe75dda4aa7784cddacda18d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/df2e3c55d0466ad4c9bc20a6af7ccbb6.asset.1.index for Assets/UI Tools/Scroll/Limb Scroll View.prefab with Types
+ -> (artifact id: 'c420dc9664cae48733c4ce900e189e21') in 0.301503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068524 seconds.
+  path: Assets/UI Tools/Scroll
+  artifactKey: Guid(4162141c5fc2f5e438f6b933e5037122) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI Tools/Scroll using Guid(4162141c5fc2f5e438f6b933e5037122) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/ab372024b2d887346bdc1463458464ee.asset.1.index for Assets/UI Tools/Scroll with Types
+ -> (artifact id: '0a1aef5f746421c029d8b5b730dff483') in 0.023774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053992 seconds.
+  path: Assets/UI Tools/Limb Info.prefab
+  artifactKey: Guid(e5f9d229f76a4ee45bd54621d5f544ad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI Tools/Limb Info.prefab using Guid(e5f9d229f76a4ee45bd54621d5f544ad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/73e062ec029dfe44bb289ba7e208f56c.asset.1.index for Assets/UI Tools/Limb Info.prefab with Types
+ -> (artifact id: '33b047eeb9c248db42b091e324201295') in 0.010917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031060 seconds.
+  path: Assets/UI Tools/Scroll/Default Scroll View.prefab
+  artifactKey: Guid(deaccbefedbe4ab47b4788f468d3fc31) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI Tools/Scroll/Default Scroll View.prefab using Guid(deaccbefedbe4ab47b4788f468d3fc31) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/a1b570649fcd65a489725d063789aefa.asset.1.index for Assets/UI Tools/Scroll/Default Scroll View.prefab with Types
+ -> (artifact id: 'b8096cf3cb17b7939aa6e50c79c5d0e8') in 0.009718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040974 seconds.
+  path: Assets/LimbInfo.cs
+  artifactKey: Guid(3ebe74c4345f2fa4eb52de868934b2fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LimbInfo.cs using Guid(3ebe74c4345f2fa4eb52de868934b2fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/1c1b826588605f44e8dc0a64fb72e9b8.asset.1.index for Assets/LimbInfo.cs with Types
+ -> (artifact id: 'ade009c5614759c7c2093461cb7dc07c') in 0.034121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043325 seconds.
+  path: Assets/ScrollTest.unity
+  artifactKey: Guid(6f33c27c3df2bf94e8a73222fb907ccd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ScrollTest.unity using Guid(6f33c27c3df2bf94e8a73222fb907ccd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/63c6c09d181408b4dbeb5d6220b39f6c.asset.1.index for Assets/ScrollTest.unity with Types
+ -> (artifact id: 'acd726f8514ee77ec32b4f57c1455918') in 0.010877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 209.884675 seconds.
+  path: Assets/LeanTween/Examples/Material/Futoro_PersonSprites.jpg
+  artifactKey: Guid(cea2c9bf87b0c4dfdafb697a3ff00959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Material/Futoro_PersonSprites.jpg using Guid(cea2c9bf87b0c4dfdafb697a3ff00959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eda4f9160029db083751fc20f49042d') in 0.239898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068942 seconds.
+  path: Assets/LeanTween/Examples/Material/Futuro_WindowBack.psd
+  artifactKey: Guid(678c92572cc724845a460c87117f5353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Material/Futuro_WindowBack.psd using Guid(678c92572cc724845a460c87117f5353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e974b0fee289f1864e40d9628d215606') in 0.035309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026094 seconds.
+  path: Assets/LeanTween/Examples/Material/Futuro_ButtonBack.psd
+  artifactKey: Guid(b3abce7efa3854a4cb1dd6b47f553027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Material/Futuro_ButtonBack.psd using Guid(b3abce7efa3854a4cb1dd6b47f553027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc2e5bf9995b7dec9feae048a802754') in 0.018877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037686 seconds.
+  path: Assets/LeanTween/Examples/Textures/Dude2d.png
+  artifactKey: Guid(5f7fa9a7940a64e79b5a42d9f661d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Textures/Dude2d.png using Guid(5f7fa9a7940a64e79b5a42d9f661d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a1c6f0763d1c7e8a3a0453ac712692') in 0.027617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041318 seconds.
+  path: Assets/LeanTween/Examples/Material/Futoro_Ring.psd
+  artifactKey: Guid(ef31bc3f46d6047b29ff513e55daf05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Material/Futoro_Ring.psd using Guid(ef31bc3f46d6047b29ff513e55daf05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b65946dd98c7165afa5aaf78194a2f5') in 0.028487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041615 seconds.
+  path: Assets/LeanTween/Examples/Material/Futuro_Bar.psd
+  artifactKey: Guid(492b9988436bd45049a9a6bc52ac8fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Material/Futuro_Bar.psd using Guid(492b9988436bd45049a9a6bc52ac8fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a075a6cbf448ffef2aad372abbae60') in 0.020060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042159 seconds.
+  path: Assets/LeanTween/Examples/Textures/PowerUpStar.png
+  artifactKey: Guid(70141d51621e24facbca9196bbde84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Textures/PowerUpStar.png using Guid(70141d51621e24facbca9196bbde84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0935c11c5d1320550fc49da95d56921') in 0.023351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031401 seconds.
+  path: Assets/LeanTween/Examples/Material/Futuro_ButtonBackDark.psd
+  artifactKey: Guid(b8aaa707027cc4f79af3439c5dbc9652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Material/Futuro_ButtonBackDark.psd using Guid(b8aaa707027cc4f79af3439c5dbc9652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119b716b581f2404f77bc922a35c0183') in 0.015690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029258 seconds.
+  path: Assets/LeanTween/Examples/Textures/DustCloud.png
+  artifactKey: Guid(c4c548a339b4d41a590928c0c98934a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Textures/DustCloud.png using Guid(c4c548a339b4d41a590928c0c98934a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460f8f03990064df67ce2fa9c6459912') in 0.026639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049967 seconds.
+  path: Assets/LeanTween/Examples/Material/Futuro_SineWave.psd
+  artifactKey: Guid(d835741a3c4a14a0aa5f7536c46456c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Material/Futuro_SineWave.psd using Guid(d835741a3c4a14a0aa5f7536c46456c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620c2f4c729442b60ddf1367a60db39e') in 0.014948 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005583 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.057 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2732 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.8 MB.
+System memory in use after: 242.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3351.
+Total: 3.092000 ms (FindLiveObjects: 0.283200 ms CreateObjectMapping: 0.256500 ms MarkObjects: 2.413700 ms  DeleteObjects: 0.137100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 300.088166 seconds.
+  path: Assets/UI Tools/Scroll/Scroll List- Experiment.prefab
+  artifactKey: Guid(9ee3331e43788134e9c534f0868ab095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Tools/Scroll/Scroll List- Experiment.prefab using Guid(9ee3331e43788134e9c534f0868ab095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330a0a47c7541b334e4032c286927f4e') in 0.453907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.778945 seconds.
+  path: Assets/UI Tools/LimbInfo.cs
+  artifactKey: Guid(3ebe74c4345f2fa4eb52de868934b2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Tools/LimbInfo.cs using Guid(3ebe74c4345f2fa4eb52de868934b2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbbeeba8a579f26ff5872429accb27e') in 0.002827 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008233 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.370 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2722 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.8 MB.
+System memory in use after: 242.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3353.
+Total: 3.287100 ms (FindLiveObjects: 0.318400 ms CreateObjectMapping: 0.204300 ms MarkObjects: 2.681600 ms  DeleteObjects: 0.081100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.198599 seconds.
+  path: Assets/UI Tools/Scroll/ScrollTest.unity
+  artifactKey: Guid(6f33c27c3df2bf94e8a73222fb907ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Tools/Scroll/ScrollTest.unity using Guid(6f33c27c3df2bf94e8a73222fb907ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0007f2c6049eda985ccdcfacecd2c0') in 0.026613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.019578 seconds.
+  path: Assets/UI Tools/Scroll/Limb Scroll View.prefab
+  artifactKey: Guid(37a1e2aabe75dda4aa7784cddacda18d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI Tools/Scroll/Limb Scroll View.prefab using Guid(37a1e2aabe75dda4aa7784cddacda18d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/722871e3b97e7af498093aa062afb53f.asset.1.index for Assets/UI Tools/Scroll/Limb Scroll View.prefab with Types
+ -> (artifact id: 'facae2c6042949390d7ac29f2b399840') in 0.105470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025973 seconds.
+  path: Assets/UI Tools/Scroll/Scroll List- Experiment.prefab
+  artifactKey: Guid(9ee3331e43788134e9c534f0868ab095) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI Tools/Scroll/Scroll List- Experiment.prefab using Guid(9ee3331e43788134e9c534f0868ab095) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/983684c6b630ff74f82acc8de326769f.asset.1.index for Assets/UI Tools/Scroll/Scroll List- Experiment.prefab with Types
+ -> (artifact id: 'c905ece65f7adee42d6066b46148de92') in 0.008600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024413 seconds.
+  path: Assets/UI Tools/Scroll/Default Scroll View.prefab
+  artifactKey: Guid(deaccbefedbe4ab47b4788f468d3fc31) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI Tools/Scroll/Default Scroll View.prefab using Guid(deaccbefedbe4ab47b4788f468d3fc31) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/e06cbe3dbff9fc44d8cb95cf31723454.asset.1.index for Assets/UI Tools/Scroll/Default Scroll View.prefab with Types
+ -> (artifact id: 'a00c8ee07dda978d12d9342a59d57c92') in 0.012193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037875 seconds.
+  path: Assets/UI Tools/Scroll/ScrollTest.unity
+  artifactKey: Guid(6f33c27c3df2bf94e8a73222fb907ccd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/UI Tools/Scroll/ScrollTest.unity using Guid(6f33c27c3df2bf94e8a73222fb907ccd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/84a004c161c32dc4ead660fe56c60680.asset.1.index for Assets/UI Tools/Scroll/ScrollTest.unity with Types
+ -> (artifact id: 'a50fa016b5780907f0eca2f75e6c51a4') in 0.013622 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004402 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.040 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2722 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.8 MB.
+System memory in use after: 242.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3355.
+Total: 11.021600 ms (FindLiveObjects: 0.543700 ms CreateObjectMapping: 0.316900 ms MarkObjects: 9.833000 ms  DeleteObjects: 0.321400 ms)
+
