@@ -2210,7 +2210,23 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 4843405155927065839, guid: 37a1e2aabe75dda4aa7784cddacda18d, type: 3}
+=======
+    - target: {fileID: 4380100805457895700, guid: 37a1e2aabe75dda4aa7784cddacda18d, type: 3}
+      propertyPath: m_FillAmount
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512269736699187020, guid: 37a1e2aabe75dda4aa7784cddacda18d, type: 3}
+      propertyPath: m_PreferredWidth
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280683289671728889, guid: 37a1e2aabe75dda4aa7784cddacda18d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280683289671728889, guid: 37a1e2aabe75dda4aa7784cddacda18d, type: 3}
+>>>>>>> Stashed changes
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
@@ -2234,6 +2250,7 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 4843405156175238768, guid: 37a1e2aabe75dda4aa7784cddacda18d, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2247,6 +2264,13 @@ PrefabInstance:
       value: Content
       objectReference: {fileID: 0}
     - target: {fileID: 7280683289671728889, guid: 37a1e2aabe75dda4aa7784cddacda18d, type: 3}
+=======
+    - target: {fileID: 7298940529694303705, guid: 37a1e2aabe75dda4aa7784cddacda18d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7829625447334723513, guid: 37a1e2aabe75dda4aa7784cddacda18d, type: 3}
+>>>>>>> Stashed changes
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
@@ -2442,5 +2466,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Limb Scroll View
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 8771753655543105742, guid: 37a1e2aabe75dda4aa7784cddacda18d, type: 3}
+      propertyPath: m_FillAmount
+      value: 0.05
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37a1e2aabe75dda4aa7784cddacda18d, type: 3}
