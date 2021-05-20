@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b80de28a147289042b9ad3c60458bf1d, type: 3}
+  m_Name: BLUEM0LD PALETTE
+  m_EditorClassIdentifier: 
+  Source: https://lospec.com/palette-list/bluem0ld
+  Description: 'Created by warpixel
+
+    
+
+    Based on actual blue mold. A little
+    desaturated for nastiness.
+
+    #bluem0ld on Twitter'
+  colorPalette:
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0.16078432, g: 0.25882354, b: 0.34117648, a: 1}
+  - {r: 0.34117648, g: 0.6117647, b: 0.6039216, a: 1}
+  - {r: 0.6, g: 0.7882353, b: 0.7019608, a: 1}
+  friendlyBar:
+    HealthPrimary: {r: 0, g: 0, b: 0, a: 0}
+    HealthSecondary: {r: 0, g: 0, b: 0, a: 0}
+    ShieldPrimary: {r: 0, g: 0, b: 0, a: 0}
+    ShieldSecondary: {r: 0, g: 0, b: 0, a: 0}
+    BackgroundPrimary: {r: 0, g: 0, b: 0, a: 0}
+    BackgroundSecondary: {r: 0, g: 0, b: 0, a: 0}
+  enemyBar:
+    HealthPrimary: {r: 0, g: 0, b: 0, a: 0}
+    HealthSecondary: {r: 0, g: 0, b: 0, a: 0}
+    ShieldPrimary: {r: 0, g: 0, b: 0, a: 0}
+    ShieldSecondary: {r: 0, g: 0, b: 0, a: 0}
+    BackgroundPrimary: {r: 0, g: 0, b: 0, a: 0}
+    BackgroundSecondary: {r: 0, g: 0, b: 0, a: 0}
